@@ -5,3 +5,7 @@
 .MuiAccordionDetails-root{
     flex-direction: column;
 }
+
+#new::-webkit-scrollbar {
+    width: 0.4em;
+}

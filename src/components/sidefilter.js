@@ -68,6 +68,8 @@ export default function SimpleAccordion() {
           {/* sidefilter  */}
           <Col sm={3}>
           {/* <div  style={{width: "22%",padding: '25px'}}> */}
+          <Typography style={{fontSize:'22px'}}>Explore the Collections</Typography>
+          <Typography className={classes.heading}>Filter By</Typography>
             <Accordion>
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
@@ -116,7 +118,7 @@ export default function SimpleAccordion() {
           </Col>
           {/* gridbox */}
           <Col sm={9}>
-          <div className="row row-cols-1 row-cols-md-3">
+          <div id="new" className="row row-cols-1 row-cols-md-3" style={{overflowY: 'auto',height:'500px',}}>
            {
                list.map((item) =>
                // <div className="col mb-3">
@@ -125,7 +127,7 @@ export default function SimpleAccordion() {
                        <div className="card-body">
                            <h2 className="card-title">{item.product_name}</h2>
                            <p className="card-text">{item.description}</p>
-                           <p className="price">{item.price}<span>{item.currency}</span></p>
+                           <p className="price" style={{textAlign:'right'}}>{item.price}<span>{item.currency}</span></p>
                        </div>
                    </div>
                    // </div>

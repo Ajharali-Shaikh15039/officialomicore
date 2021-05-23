@@ -3,6 +3,7 @@ import * as ReactBootstrap from 'react-bootstrap';
 import MainContent from "./components/MainContent";
 import Simple from './components/Slider';
 import SimpleAccordion from './components/sidefilter';
+import Typography from "@material-ui/core/Typography";
 import Body from './components/Body';
 
 function App() {
@@ -30,7 +31,6 @@ function App() {
       </ReactBootstrap.Navbar>
       <MainContent />
       <Simple/>
-      {/* <h1>Explore the Collections</h1> */}
       <SimpleAccordion/>
       {/* <Body/> */}
   
