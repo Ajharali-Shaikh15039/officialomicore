@@ -118,7 +118,8 @@ export default function SimpleAccordion() {
           </Col>
           {/* gridbox */}
           <Col sm={9}>
-          <div id="new" className="row row-cols-1 row-cols-md-3" style={{overflowY: 'auto',height:'500px',}}>
+          <div id="new" className="row row-cols-1 row-cols-md-3" style={{ position:'relative',
+          overflowY: 'auto',height:'500px',}}>
            {
                list.map((item) =>
                // <div className="col mb-3">

@@ -3,8 +3,8 @@ import * as ReactBootstrap from 'react-bootstrap';
 import MainContent from "./components/MainContent";
 import Simple from './components/Slider';
 import SimpleAccordion from './components/sidefilter';
-import Typography from "@material-ui/core/Typography";
-import Body from './components/Body';
+import Productreview from './components/Productreview';
+import Aboutus from './components/Aboutus';
 
 function App() {
   return (
@@ -32,8 +32,9 @@ function App() {
       <MainContent />
       <Simple/>
       <SimpleAccordion/>
-      {/* <Body/> */}
-  
+      <Productreview/>
+      <Aboutus/>
+
     </div>
   );
 }
