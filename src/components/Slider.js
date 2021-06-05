@@ -70,8 +70,8 @@ const Simple = ({ deviceType }) => {
         removeArrowOnDeviceType={["tablet", "mobile"]}
         showDots={true}
         draggable={true}
-        // autoPlay={true}
-        // infinite={true}
+        autoPlay={true}
+        infinite={true}
         
       >
         {product_data.slice(0, 5).map(item => {
