@@ -1,11 +1,11 @@
 const product_card = [
     {
         id: 1001,
-        product_name: "Painting",
+        product_name: " ",
         description: "COMING SOON",
         // price: 350,
         // currency: "$",
-        thumb: "./images/1.jpeg",
+        thumb: "./images/Painting/p1.png",
         category: "PAINTING"
     },
     {
@@ -461,9 +461,9 @@ const product_card = [
         id: 6,
         product_name: "Clock",
         description: "Coming Soon",
-        price: 350,
-        currency: "$",
-        thumb: "./images/6.jpeg",
+        // price: 350,
+        // currency: "$",
+        thumb: "./images/Clock/c1.png",
         category: "CLOCK"
     },
     {
