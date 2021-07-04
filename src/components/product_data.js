@@ -1,7 +1,7 @@
 const product_card = [
     {
         id: 1001,
-        product_name: " ",
+        product_name: "Painting",
         description: "COMING SOON",
         // price: 350,
         // currency: "$",

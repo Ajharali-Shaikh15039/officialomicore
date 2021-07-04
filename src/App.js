@@ -5,13 +5,15 @@ import Simple from './components/Slider';
 import SimpleAccordion from './components/sidefilter';
 import Productreview from './components/Productreview';
 import Aboutus from './components/Aboutus';
+import Contactus from './components/contactus';
+import Footer from './components/footer';
 import { Link, Route, Router, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div>
       <ReactBootstrap.Navbar collapseOnSelect expand="lg" bg="white" variant="light">
-        <ReactBootstrap.Navbar.Brand href="#home">
+        <ReactBootstrap.Navbar.Brand >
         <Link to ="/"><img
         src="./logo_omicore.png"
         width="150"
@@ -41,22 +43,22 @@ function App() {
       <Simple/>
       <SimpleAccordion/>
       <Productreview/>
-      <Aboutus/></Route>
+      <Aboutus/><Contactus/><Footer/></Route>
       <Route exact path="/home"><MainContent />
       <Simple/>
       <SimpleAccordion/>
       <Productreview/>
-      <Aboutus/></Route>
+      <Aboutus/><Contactus/><Footer/></Route>
       <Route exact path="/aboutus">
       <Productreview/>
-      <Aboutus/></Route>
+      <Aboutus/><Contactus/><Footer/></Route>
       <Route exact path="/product">
       <Simple/>
       <SimpleAccordion/>
       <Productreview/>
-      <Aboutus/></Route>
+      <Aboutus/><Contactus/><Footer/></Route>
       <Route exact path="/contactus">
-      <Aboutus/></Route>
+      <Contactus/><Footer/></Route>
 
 
     </div>

@@ -18,22 +18,22 @@ const review =[
 
     },
     {
-        image: './images/6.jpeg',
+        image: './images/Table figurine/tf14.jpg',
         title: 'Table Figuruines',
         description: 'This product is heavily used for decoration purpose though it is main intention of this product design.It is a Custom design made specially for only few Clients and not sold on loose.',
         quote:'“The product is very good and the quality also as seen on picture ”',
-        avatar: './images/1.jpeg',
+        avatar: './logo_omicore.png',
         name:'Sagar',
         residence:'Mumbai'
 
     },
     {
-        image: './images/5.jpeg',
+        image: './images/Tea light/tl1.png',
         title: 'Tea Light',
         description: 'This product is heavily used for decoration purpose though it is main intention of this product design.It is a Custom design made specially for only few Clients and not sold on loose.',
         quote:'“The product is very good and the quality also as seen on picture ”',
-        avatar: './images/5.jpeg',
-        name:'shailendra',
+        avatar: './logo_omicore.png',
+        name:'Sultan',
         residence:'Delhi'
     },
 ]

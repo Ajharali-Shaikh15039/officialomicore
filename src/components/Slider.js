@@ -14,7 +14,7 @@ const product_data = [
       title: 'Blue pottery',
   },
   {
-      image: './images/Flower vase/golden vase.jpg',
+      image: './images/Flower vase/fv11.jpg',
       title: 'Flower vase',
   },
   {
@@ -26,11 +26,11 @@ const product_data = [
       title: 'Mask',
   },
   {
-      image: './images/Mirror/mir1.jpg',
+      image: './images/Mirror/mr1.jpg',
       title: 'Mirror',
   },
   {
-      image: './images/Pendent lamp/p1.jpeg',
+      image: './images/Pendent lamp/pl1.jpeg',
       title: 'Pendant Lamp',
   },
   {
