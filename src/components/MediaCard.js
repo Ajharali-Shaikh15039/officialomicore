@@ -9,7 +9,7 @@ import "./style.css";
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 300,
+        maxWidth: 200,
     },
     media: {
         height: 200,

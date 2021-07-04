@@ -10,29 +10,37 @@ import MediaCard from "./MediaCard.js";
 const product_data = [
   // silder = [
       {
-      image: './images/7.jpeg',
-      title: 'Wall Clock',
+      image: './images/Blue pottery/bp1.png',
+      title: 'Blue pottery',
   },
   {
-      image: './images/7.jpeg',
-      title: 'Table Figuruines',
+      image: './images/Flower vase/golden vase.jpg',
+      title: 'Flower vase',
   },
   {
-      image: './images/3.jpeg',
-      title: 'Tea Light',
+      image: './images/Hanging Panel/hp1.jpg',
+      title: 'Hanging panel',
   },
   {
-      image: './images/4.jpeg',
-      title: 'Flower Vase',
+      image: './images/Mask/m1.jpg',
+      title: 'Mask',
   },
   {
-      image: './images/5.jpeg',
-      title: 'Hanging Panel',
+      image: './images/Mirror/mir1.jpg',
+      title: 'Mirror',
   },
   {
-      image: './images/6.jpeg',
+      image: './images/Pendent lamp/p1.jpeg',
       title: 'Pendant Lamp',
-  }
+  },
+  {
+    image: './images/Table figurine/tf4.png', 
+    title: 'Table figurine',
+},
+{
+  image: './images/Tea light/tl1.png',
+  title: 'Tea light',
+}
 ]
 
 const responsive = {
@@ -74,7 +82,7 @@ const Simple = ({ deviceType }) => {
         infinite={true}
         
       >
-        {product_data.slice(0, 5).map(item => {
+        {product_data.slice(0, 8).map(item => {
           return (
             <>
             
